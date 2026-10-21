@@ -1,4 +1,4 @@
-FROM node:16-alpine@sha256:a1f9d027912b58a7c75be7716c97cfbc6d3099f3a97ed84aa490be9dee20e787
+FROM node:26-alpine@sha256:9bd229b644e391df00fb989efa732335aefc6170a05d8c163c5c8ca9870da401
 WORKDIR /app
 COPY . .
 CMD ["node", "index.js"]
